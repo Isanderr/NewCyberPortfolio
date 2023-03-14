@@ -56,9 +56,6 @@ const services = [
   {
     title: "SOAR",
     icon: creator,
-  },{
-    title: "SOAR",
-    icon: web,
   },
 ];
 
@@ -119,8 +116,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Konwojent",
-    company_name: "Konsalnet",
+    title: "React.js Developer",
+    company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
     date: "Maj 2020 - April 2021",

@@ -58,7 +58,7 @@ const services = [
     icon: creator,
   },{
     title: "SOAR",
-    icon: web,
+    icon: creator,
   },
 ];
 
