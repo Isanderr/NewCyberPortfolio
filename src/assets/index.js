@@ -29,8 +29,29 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ecCouncil from "./ec-council.png";
+import isc2cc from "./isc2cc.png";
+import itil4 from "./ITIL4Foundation.png";
+import linux from "./linux.png";
+import microsoft from "./microsoft.png";
+import securityplus from "./SecurityPlus.png";
+import tcmsecurity from "./tcmsecurity.png";
+import skw from "./skw.png";
+import chopin from "./chopin.png";
+import modlin from "./modlin.png";
 
-export {
+export
+{
+  ecCouncil,
+  chopin,
+  modlin,
+  isc2cc,
+  itil4,
+  linux,
+  microsoft,
+  securityplus,
+  tcmsecurity,
+  skw,
   logo,
   backend,
   creator,

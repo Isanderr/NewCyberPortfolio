@@ -25,7 +25,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <div class="flex h-screen items-center p-16" style={{width:"45rem"}}>
+{/* Hero image */}
+      <div className="flex h-screen items-center pt-24 opacity-60" style={{width:"32rem"}}>
       <img src="/src/assets/cybersecHero.png"></img>
    </div>
       {/* <ComputersCanvas /> */}

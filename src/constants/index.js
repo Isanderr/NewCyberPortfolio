@@ -23,6 +23,16 @@ import {
   jobit,
   tripguide,
   threejs,
+  ecCouncil,
+  isc2cc,
+  itil4,
+  linux,
+  microsoft,
+  securityplus,
+  tcmsecurity,
+  skw,
+  chopin,
+  modlin,
 } from "../assets";
 
 export const navLinks = [
@@ -42,23 +52,31 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Sieci komputerowe",
-    icon: web,
+    title: "CompTIA Security+",
+    icon: securityplus,
   },
   {
-    title: "Wirtualizacja",
-    icon: mobile,
+    title: "(ISC)2 Certified in Cybersecurity",
+    icon: isc2cc,
   },
   {
-    title: "SIEM",
-    icon: backend,
+    title: "Axelos ITIL4 Foundation",
+    icon: itil4,
   },
   {
-    title: "SOAR",
-    icon: creator,
+    title: "EC-Council",
+    icon: ecCouncil,
   },{
-    title: "SOAR",
-    icon: web,
+    title: "TCM Security",
+    icon: tcmsecurity,
+  },
+  {
+    title: "Linux",
+    icon: linux,
+  },
+  {
+    title: "Microsoft",
+    icon: microsoft,
   },
 ];
 
@@ -119,22 +137,9 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Konwojent",
-    company_name: "Konsalnet",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "Maj 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Wartownik-Konwojent",
     company_name: "Port Lotniczy Warszawa-Modlin",
-    icon: tesla,
+    icon: modlin,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -147,7 +152,7 @@ const experiences = [
   {
     title: "Wartownik-Konwojent",
     company_name: "Port Lotniczy Warszawa Okęcie",
-    icon: shopify,
+    icon: chopin,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -160,7 +165,7 @@ const experiences = [
   {
     title: "Funkcjonariusz",
     company_name: "Służba Kontrwywiadu Wojskowego",
-    icon: meta,
+    icon: skw,
     iconBg: "#E6DEDD",
     date: "Maj 2015 - Present",
     points: [
