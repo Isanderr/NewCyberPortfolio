@@ -19,14 +19,14 @@ const Hero = () => {
             Cześć, jestem <span className='text-[#915EFF]'>Łukasz</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Zajmuję się Cyber Security <br className='sm:block hidden' />
-            ale także kilkoma innymi rzeczami.
+            Zajmuję się Cyber Security, <br className='sm:block hidden' />
+            sieciami komputerowymi, wirtualizacją.
           </p>
         </div>
       </div>
 
 {/* Hero image */}
-      <div className="flex h-screen items-center pt-24 opacity-60" style={{width:"32rem"}}>
+      <div className="flex h-screen items-center pt-32 opacity-50" style={{width:"30rem"}}>
       <img src="/src/assets/cybersecHero.png"></img>
    </div>
       {/* <ComputersCanvas /> */}
